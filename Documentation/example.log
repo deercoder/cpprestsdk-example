@@ -1,0 +1,220 @@
+[{"faceId":"be14a0c6-4ce4-4a01-ba13-434b485dd12a","faceRectangle":{"top":7,"left":8,"width":113,"height":113},"faceLandmarks":{"pupilLeft":{"x":37.8,"y":36.8},"pupilRight":{"x":86.6,"y":37.1},"noseTip":{"x":69.6,"y":68.2},"mouthLeft":{"x":41.0,"y":90.2},"mouthRight":{"x":86.5,"y":89.0},"eyebrowLeftOuter":{"x":21.1,"y":32.8},"eyebrowLeftInner":{"x":53.6,"y":29.0},"eyeLeftOuter":{"x":30.2,"y":39.1},"eyeLeftTop":{"x":38.0,"y":34.6},"eyeLeftBottom":{"x":38.6,"y":41.1},"eyeLeftInner":{"x":46.1,"y":39.2},"eyebrowRightInner":{"x":77.7,"y":29.1},"eyebrowRightOuter":{"x":105.8,"y":35.8},"eyeRightInner":{"x":78.7,"y":39.0},"eyeRightTop":{"x":86.9,"y":34.2},"eyeRightBottom":{"x":87.0,"y":41.3},"eyeRightOuter":{"x":95.3,"y":39.2},"noseRootLeft":{"x":57.8,"y":41.1},"noseRootRight":{"x":71.8,"y":40.4},"noseLeftAlarTop":{"x":55.9,"y":58.8},"noseRightAlarTop":{"x":75.6,"y":56.9},"noseLeftAlarOutTip":{"x":52.5,"y":69.0},"noseRightAlarOutTip":{"x":80.6,"y":66.8},"upperLipTop":{"x":67.2,"y":83.6},"upperLipBottom":{"x":67.0,"y":88.0},"underLipTop":{"x":66.6,"y":97.1},"underLipBottom":{"x":65.8,"y":102.4}},"faceAttributes":{"smile":1.0,"gender":"male","age":30.1,"glasses":"NoGlasses"}}]
+
+{
+"faceId":"be14a0c6-4ce4-4a01-ba13-434b485dd12a",
+"faceRectangle":{"top":7,"left":8,"width":113,"height":113},
+"faceLandmarks":{
+	"pupilLeft":{"x":37.8,"y":36.8},
+	"pupilRight":{"x":86.6,"y":37.1},
+	"noseTip":{"x":69.6,"y":68.2},
+	"mouthLeft":{"x":41.0,"y":90.2},
+	"mouthRight":{"x":86.5,"y":89.0},
+	"eyebrowLeftOuter":{"x":21.1,"y":32.8},
+	"eyebrowLeftInner":{"x":53.6,"y":29.0},
+	"eyeLeftOuter":{"x":30.2,"y":39.1},
+	"eyeLeftTop":{"x":38.0,"y":34.6},
+	"eyeLeftBottom":{"x":38.6,"y":41.1},
+	"eyeLeftInner":{"x":46.1,"y":39.2},
+	"eyebrowRightInner":{"x":77.7,"y":29.1},
+	"eyebrowRightOuter":{"x":105.8,"y":35.8},
+	"eyeRightInner":{"x":78.7,"y":39.0},
+	"eyeRightTop":{"x":86.9,"y":34.2},
+	"eyeRightBottom":{"x":87.0,"y":41.3},
+	"eyeRightOuter":{"x":95.3,"y":39.2},
+	"noseRootLeft":{"x":57.8,"y":41.1},
+	"noseRootRight":{"x":71.8,"y":40.4},
+	"noseLeftAlarTop":{"x":55.9,"y":58.8},
+	"noseRightAlarTop":{"x":75.6,"y":56.9},
+	"noseLeftAlarOutTip":{"x":52.5,"y":69.0},
+	"noseRightAlarOutTip":{"x":80.6,"y":66.8},
+	"upperLipTop":{"x":67.2,"y":83.6},
+	"upperLipBottom":{"x":67.0,"y":88.0},
+	"underLipTop":{"x":66.6,"y":97.1},
+	"underLipBottom":{"x":65.8,"y":102.4}
+  },
+"faceAttributes":{"smile":1.0,"gender":"male","age":30.1,"glasses":"NoGlasses"}
+}
+//////////////////////////////////////////////////////////////
+
+ {
+	"categories":
+	[
+		{
+		"name":"people_portrait",
+		"score":0.9609375,
+		"detail":
+			{
+				"celebrities":
+					[
+						{
+							"name":"Abraham Lincoln",
+							"faceRectangle":
+								{
+									"left":365,
+									"top":92,
+									"width":287,
+									"height":287
+								},
+							"confidence":0.9998934
+						}
+					]
+			}
+		}
+	],
+	"requestId":"66e9da75-52ed-46b6-ae09-1379ca663b72",
+	"metadata":
+		{
+			"width":800,
+			"height":452,
+			"format":"Jpeg"
+		}
+}
+
+///////////////////////////////////////////////////////
+tags request:
+
+{
+  "categories": [
+    {
+      "name": "people_portrait",
+      "score": 0.9609375,
+      "detail": {
+        "celebrities": [
+          {
+            "name": "Abraham Lincoln",
+            "faceRectangle": {
+              "left": 365,
+              "top": 92,
+              "width": 287,
+              "height": 287
+            },
+            "confidence": 0.9998934
+          }
+        ]
+      }
+    }
+  ],
+  "tags": [
+    {
+      "name": "man",
+      "confidence": 0.99232882261276245
+    },
+    {
+      "name": "person",
+      "confidence": 0.92723089456558228
+    },
+    {
+      "name": "wearing",
+      "confidence": 0.90173190832138062
+    },
+    {
+      "name": "black",
+      "confidence": 0.70247960090637207
+    },
+    {
+      "name": "posing",
+      "confidence": 0.64610832929611206
+    }
+  ],
+  "requestId": "9f85068b-1295-4862-a953-98a9ee695bef",
+  "metadata": {
+    "width": 800,
+    "height": 452,
+    "format": "Jpeg"
+  }
+}
+////////////////////////////////////////////////////////////////
+description request:
+
+{
+  "categories": [
+    {
+      "name": "people_portrait",
+      "score": 0.9609375,
+      "detail": {
+        "celebrities": [
+          {
+            "name": "Abraham Lincoln",
+            "faceRectangle": {
+              "left": 365,
+              "top": 92,
+              "width": 287,
+              "height": 287
+            },
+            "confidence": 0.9998934
+          }
+        ]
+      }
+    }
+  ],
+  "description": {
+    "tags": [
+      "man",
+      "necktie",
+      "person",
+      "wearing",
+      "photo",
+      "black",
+      "posing",
+      "standing",
+      "suit",
+      "looking",
+      "white",
+      "camera",
+      "front",
+      "old",
+      "smiling",
+      "hair",
+      "dressed",
+      "shirt",
+      "bow",
+      "neck",
+      "young",
+      "large",
+      "holding"
+    ],
+    "captions": [
+      {
+        "text": "Abraham Lincoln wearing a bow tie",
+        "confidence": 0.37121948805416305
+      }
+    ]
+  },
+  "requestId": "dd090240-98e1-432c-bbb3-3702e916a519",
+  "metadata": {
+    "width": 800,
+    "height": 452,
+    "format": "Jpeg"
+  }
+}
+
+
+//////////////////////////////////////////////////////
+object category, taggings, image captionings.
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+emotion request:
+
+[
+  {
+    "faceRectangle": {
+      "height": 178,
+      "left": 183,
+      "top": 54,
+      "width": 178
+    },
+    "scores": {
+      "anger": 4.308098E-06,
+      "contempt": 0.00379616441,
+      "disgust": 0.000105404972,
+      "fear": 1.69607617E-07,
+      "happiness": 0.9912161,
+      "neutral": 0.003879234,
+      "sadness": 0.0009960682,
+      "surprise": 2.50642438E-06
+    }
+  }
+]
+
+
