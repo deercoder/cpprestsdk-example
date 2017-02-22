@@ -19,10 +19,12 @@ Reference:
 2) API interface: https://westus.dev.cognitive.microsoft.com/docs/services/56f91f2d778daf23d8ec6739/operations/56f91f2e778daf14a499e1fa
 */
 std::string vision_base_host = "https://westus.api.cognitive.microsoft.com/vision/v1.0/analyze?details=Celebrities&language=en&visualFeatures=";
+const std::string const_vision_host = "https://westus.api.cognitive.microsoft.com/vision/v1.0/analyze?details=Celebrities&language=en&visualFeatures=";
 std::string feature_options[7] = { "Categories", "ImageType", "Faces", "Adult", "Color", "Tags", "Description" };
 
 VisionRestRequest::VisionRestRequest(int flag)
 {
+	vision_base_host = const_vision_host;
 	this->setRequestType(flag);
 	this->client = new http_client(conversions::to_string_t(vision_base_host));
 	this->request = new http_request(methods::POST);
@@ -30,6 +32,7 @@ VisionRestRequest::VisionRestRequest(int flag)
 
 VisionRestRequest::VisionRestRequest(int flag, bool send_raw_file)
 {
+	vision_base_host = const_vision_host;
 	this->setRequestType(flag);
 	this->client = new http_client(conversions::to_string_t(vision_base_host));
 	this->request = new http_request(methods::POST);
